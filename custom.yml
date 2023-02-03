@@ -1,14 +1,13 @@
 feeds:
   - name: custom
     path: ../feeds_dir/custom
-  - name: helloworld
-    uri: https://github.com/fw876/helloworld.git
-    branch: master
   - name: NueXini_Packages
     uri: https://github.com/NueXini/NueXini_Packages.git
     branch: main
 packages:
   - luci-app-ssr-plus
+  - luci-app-ttyd
+  - luci-app-alist
   - luci-app-ddns
   - ddns-scripts
   - ddns-scripts-services
@@ -28,15 +27,10 @@ packages:
   - luci-app-aliyundrive-webdav
   - luci-app-aria2
   - luci-app-clash
-  - luci-app-hd-idle
-  - luci-app-jd-dailybonus
   - luci-app-zerotier
   - luci-app-unblockmusic
-  - luci-app-uugamebooste
   - luci-app-usb-printer
-  - luci-app-vlmcsd
   - luci-app-openclash
-  - luci-app-p910nd
 
 
 
