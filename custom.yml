@@ -7,7 +7,6 @@ feeds:
 packages:
   - luci-app-ssr-plus
   - luci-app-ttyd
-  - luci-app-alist
   - luci-app-ddns
   - ddns-scripts
   - ddns-scripts-services
